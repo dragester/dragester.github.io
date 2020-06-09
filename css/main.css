@@ -1,0 +1,64 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%; }
+
+.container {
+  background-color: black;
+  display: grid;
+  grid-template-columns: minmax(max-content, 100vw);
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 4rem;
+  color: #6b6969;
+  text-align: center; }
+
+[class|="rain"] {
+  padding: .5rem 2rem; }
+
+.rain-0 {
+  background-color: #030303; }
+  .rain-0 a:link, .rain-0 a:visited, .rain-0 a:hover, .rain-0 a:active {
+    text-decoration: none; }
+  .rain-0__img {
+    height: 4.6rem;
+    padding: 1rem 0; }
+
+.rain-1 {
+  background-color: #fa2c2c; }
+
+.rain-2 {
+  background-color: #ffa500; }
+
+.rain-3 {
+  background-color: #ffff00; }
+
+.rain-4 {
+  background-color: #409440; }
+
+.rain-5 {
+  background-color: #2828f5; }
+
+.rain-6 {
+  background-color: #22cfee; }
+
+.rain-7 {
+  background-color: #4b0082; }
+
+.rain-8 {
+  background-color: #7639e7; }
+
+.rain-9 {
+  background-color: #ee82ee; }
+
+/* SCSS HEX */
